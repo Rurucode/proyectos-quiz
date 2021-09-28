@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styleform.css">
+
+    <!-- FUENTES GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet"> 
+    <!-- ---------------------------- -->
+    <title>Formulario</title>
+</head>
+<body>
+    <form name="pregunta1">        
+        <legend><p>En el mundo de Dragones y Mazmorras, ¿Quién es el mejor?</p></legend>
+        <div class="rowrespuesta">
+            <div class="cajarespuesta" id="a">
+                <label for="bardo">Un bardo</label>
+                <input id="bardo" type="button" name="Bardo" value="Bardo">
+            </div>
+            <div class="cajarespuesta" id="b">
+                <label for="mercader">Un mercader</label>
+                <input id="mercader" type="button" name="Mercader" value="Mercader">
+            </div>    
+        </div>
+        <div class="rowrespuesta">
+            <div class="cajarespuesta" id="c">
+                <label for="guerrero">Un guerrero</label>
+                <input id="guerrero" type="button" name="guerrero" value="Guerrero">
+            </div>
+            <div class="cajarespuesta" id="d">
+                <label for="picaro">Picaro</label>
+                <input id="picaro" type="button" name="picaro" value="Picaro">
+            </div>
+        </div>    
+        <div class="submit">
+            <button type="submit" onsubmit=""><p>RESPUESTA</p></button>
+        </div>            
+        
+    </form>
+</body>
+</html>

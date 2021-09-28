@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+ }
+
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+ }
+
+ #fondo {
+     width: 100vw;
+     position: relative;
+ }
+
+ #fondo img {
+     width: 100vw;
+     height: 100vh;
+ }
+
+
+ .logo {
+     width: 15vw;
+     transition: 0.2s;
+     position: absolute;
+ }
+
+ .logo:hover {
+     margin-top: 30px;
+     opacity: 0.3;
+ }
+
+.logo img {
+    width: 100%;
+}

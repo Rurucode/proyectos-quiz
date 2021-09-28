@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+ }
+
+ /* font-family: 'Amatic SC', cursive; PREGUNTAS */
+ /* font-family: 'Hina Mincho', serif;  RESPUESTAS*/
+
+
+
+body {
+     background-color: crimson;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 100vh;
+     background: #FF6E44;
+    background: -moz-linear-gradient(-45deg, #FF6E44 0%, #207DBA 50%, #E2EB26 100%);
+    background: -webkit-linear-gradient(-45deg, #FF6E44 0%, #207DBA 50%, #E2EB26 100%);
+    background: linear-gradient(135deg, #FF6E44 0%, #207DBA 50%, #E2EB26 100%);
+ }
+
+form {
+    width: 85vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+legend {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+legend p {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    
+    
+}
+
+div.rowrespuesta {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blueviolet; */
+    
+}
+
+div.cajarespuesta {
+    width: 80%;
+    height: 70%;
+    background-color: blue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 19px 7px rgba(0,0,0,0.12);}   
+
+div.cajarespuesta input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    font-family: 'Hina Mincho', serif;
+    font-size: 26px;
+    color: ;
+}
+
+
+
+.submit {
+    height: 200px;
+    margin: 30px;
+}
+
+.submit button {
+    width: 250px;
+    height: 100%;
+    /* background-image: url(../img/NO.gif); */
+    border-radius: 9px;
+    background-color:  grey;
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);    
+    
+}
+
+.submit button p {
+    color: white;
+
+
+}
+
+@media (max-width: 720px) {
+    div.rowrespuesta {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.cajarespuesta {
+        margin: 2px;
+        height: 40%;
+    }
+}
+
