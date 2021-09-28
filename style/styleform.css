@@ -78,7 +78,7 @@ div.cajarespuesta input {
     z-index: 1;
     font-family: 'Hina Mincho', serif;
     font-size: 26px;
-    color: ;
+    /* color: ; */
 }
 
 
@@ -103,12 +103,13 @@ div.cajarespuesta input {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Amatic SC', cursive;
 }
 
 .submit p {
     color: black;
     font-size: 40px;
-    font-family: 'Hina Mincho', serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 @media (max-width: 720px) {
