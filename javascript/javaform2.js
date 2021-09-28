@@ -1,5 +1,5 @@
 let losInputs = document.getElementsByClassName("inPut")
-let respuestaCorrecta = "Guerrero"
+let respuestaCorrecta = "1974"
 let inputId = document.getElementById
 
 let funcionCambioColor = () => {
@@ -14,7 +14,7 @@ let funcionCambioColor = () => {
 
 let eventoStart = () =>{
     for(let i = 0; i < losInputs.length; i++) {
-        losInputs[i].addEventListener("click", funcionCambioColor)
+        losInputs[i].addEventListener("click", funcionCambioColor())
     }
 }
 
